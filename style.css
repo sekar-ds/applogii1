@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    
+    align-items: center;
+    position: sticky;
+    top:0px;
+
+}
+.container .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 190px;
+
+}
+.header span{
+    font-size: 80px;
+    color:paleturquoise;
+    line-height: 70px;
+
+}
+.header span:hover{
+    transform: matrix3d(2sec);
+}
+.header a{
+    color:rgb(26, 217, 220);
+    font-size: 30px;
+}
+.header a:hover{
+   color:dimgray;
+   border-bottom: 2px solid black;
+}
+.paragaraph p{
+    text-align: center;
+    color:blue
+}
+.container .header{
+    background-image: url ("C:\Users\hp\Desktop\applogii\images\image1.jpg");
+}
+
+@media (max-width:777px){
+    .header span{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        
+    }
+    .header a{
+        
+        display: grid;
+        display: block;
+    }
+}
+
+
